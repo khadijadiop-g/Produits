@@ -13,3 +13,9 @@ function unique(array $datas,string $value,array &$errors,string $errorUnique,st
         }
     }
 }
+
+function isPositiveNumber(int $value,array &$errors,string $errorPositiveNumber,string $fieledName="prix"):void{
+    if($value<=0){
+        $errors[$fieledName]['positiveNumber'] = $errorPositiveNumber;
+    }
+}
