@@ -12,8 +12,9 @@ require(__DIR__ ."/utils/view.utils.php");
 require(__DIR__ ."/utils/validator.php");
 
 
-saveProduct();
+// saveProduct();
 
-archiverProduit();
-ShowProduct($productsArchived);
-ShowProduct($products);
+// archiverProduit();
+// ShowProduct($productsArchived);
+// ShowProduct($products);
+saveClient();
