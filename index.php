@@ -17,3 +17,5 @@ saveProduct();
 archiverProduit();
 ShowProduct($productsArchived);
 ShowProduct($products);
+saveClient();
+showClient();
