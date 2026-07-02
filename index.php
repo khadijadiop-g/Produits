@@ -15,3 +15,5 @@ require(__DIR__ ."/utils/validator.php");
 saveProduct();
 
 archiverProduit();
+ShowProduct($productsArchived);
+ShowProduct($products);
